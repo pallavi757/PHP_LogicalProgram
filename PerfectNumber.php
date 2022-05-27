@@ -4,7 +4,7 @@ class PerfectNumber
     static function toFind()
     {
         $n = readline("Enter the number:");
-        if (is_numeric($n)) {
+        if (is_numeric($n)&&$n>0) {
             $sum = 0;
             echo "The positive divisor are:";
             for ($i = 1; $i < $n; $i++) {
