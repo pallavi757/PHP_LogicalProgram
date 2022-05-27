@@ -23,5 +23,3 @@ else{
 }
 Fibo::fibonacci();
 ?>
-//$fobj=new fibo();
-//$fobj->Fibonacci();
