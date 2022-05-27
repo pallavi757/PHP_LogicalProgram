@@ -1,5 +1,13 @@
 <?php
-$MyNum = readline("Enter the number: ");
+class PrimeNum{
+    function primeNumber(){
+        $MyNum = readline("Enter the number: ");
+    //     if(is_numeric($MyNum))
+    // echo true;
+    // else
+    //  echo false;
+
+
 $n = 0;
 
 for ($i = 1; $i <= $MyNum; $i++) {
@@ -12,3 +20,10 @@ if ($n == 2) {
 } else {
     echo $MyNum . " is not a prime number.";
 }
+    }
+    
+}
+$objprime = new PrimeNum();
+$objprime->primeNumber();
+
+?>
